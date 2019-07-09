@@ -3,7 +3,7 @@ var inquirer = require("inquirer");
 
 var connection = mysql.createConnection({
   host: "localhost",
-  port: 3306,
+  port: 3300,
   user: "root",
   password: "Dutton",
   database: "bamazon_DB"
@@ -38,7 +38,7 @@ function prompt() {
         {
           type: "number",
           name: "idNumber",
-          message: "What is the ID of the product of interest? "
+          message: "The ID of the product of interest? "
         },
         {
           type: "number",

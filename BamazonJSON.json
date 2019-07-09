@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "'Bamazon' is a CLI app that mimicks \"amazon\" and uses Javascript, Inquirer, Node.JS & MySQL. When the user starts the \"app\", they are shown all the products in the \"store\". The user is then prompoted to pick the product number and a quantity that they would like to purchase. Once the purchase is made, the user gets a summary. The product database is updated to reflect the new in-stock quantities.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcliffd/Bamazonwork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcliffd/bamazon/issues"
+  },
+  "homepage": "https://github.com/rcliffd/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.4.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
+}
